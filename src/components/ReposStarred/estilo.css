@@ -1,0 +1,52 @@
+.perfil_repositorios {
+  width: 50%;
+  height: calc(410px - 4rem);
+  margin-left: 2rem;
+  background: #fefefe;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 2rem;
+  overflow: auto;
+}
+
+div::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.perfil_repositorios_repositorio {
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: #cccccc 1px solid;
+}
+
+.perfil_repositorios_repositorio:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.perfil_repositorios_nome {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin-bottom: .5rem;
+}
+
+.perfil_repositorios_descricao {
+  font-style: italic;
+  color: #888888;
+  margin-bottom: 1rem;
+}
+
+.perfil_repositorios_caixa {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil_repositorios_linguagem {
+  color: #0099ff;
+  font-weight: bolder;
+}
+
+.perfil_repositorios_data {
+  font-size: .8rem;
+}

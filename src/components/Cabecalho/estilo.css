@@ -1,0 +1,12 @@
+.cabecalho {
+  width: 100%;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  background: linear-gradient(#befff4, #eeeeee);
+}
+
+.titulo_principal {
+  font-size: 1.5rem;
+  color: #2c2c2c;
+}

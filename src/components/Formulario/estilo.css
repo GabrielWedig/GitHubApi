@@ -1,0 +1,27 @@
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.formulario_input {
+  height: 0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.botao {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-style: none;
+  background: #eeeeee;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+.botao:hover {
+  font-size: 1.01rem;
+  transition: 0.25s;
+}
