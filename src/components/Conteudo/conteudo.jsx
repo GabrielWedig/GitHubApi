@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReposStarred from "../ReposStarred/reposStarred";
 
 import axios from "axios"
-
 import "./estilo.css"
 
 function Conteudo({ nomeCompleto, avatar, id, seguidores, seguindo, repositorios, user }) {

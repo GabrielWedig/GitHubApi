@@ -18,7 +18,6 @@ const App = () => {
   const [repositorios, setRepositorios] = useState("");
 
   const procuraConta = () => {
-    console.log("fui clicado")
     axios.get(`https://api.github.com/users/${user}`)
     .then((response) => {
       setData(response.data)
